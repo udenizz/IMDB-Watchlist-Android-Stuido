@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="8dp"
+    android:background="#00A5FF"
+    tools:context=".ACTIVITY.ACTIVITIES.FilmDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="398dp"
+        android:layout_height="873dp"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginVertical="10dp"
+        android:orientation="vertical"
+        android:padding="12dp"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="33dp">
+
+
+        <TextView
+            android:id="@+id/detailed_movie_film_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/detailed_movie_film_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textColor="#000000"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:id="@+id/detailed_movie_time_to_watch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+
+        </TextView>
+
+        <TextView
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:id="@+id/detailed_movie_type_of_film"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+
+        </TextView>
+
+        <TextView
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:id="@+id/detailed_movie_director"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+
+        </TextView>
+
+        <TextView
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:id="@+id/detailed_movie_writer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+
+        </TextView>
+
+        <TextView
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:id="@+id/detailed_movie_actors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+
+        </TextView>
+
+        <TextView
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:id="@+id/detailed_movie_awards"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+
+        </TextView>
+
+        <TextView
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:id="@+id/detailed_movie_imdbRatings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+
+        </TextView>
+
+        <TextView
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:id="@+id/detailed_movie_Plot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/SaveWatchlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="Save to Watchlist">
+
+        </Button>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/detailed_film_image"
+        android:layout_width="403dp"
+        android:layout_height="883dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="8dp"
+        android:padding="1dp">
+
+    </ImageView>
+
+</RelativeLayout>
+
+

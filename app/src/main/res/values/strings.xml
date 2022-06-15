@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">c1811070_imdb_watchlist</string>
+    <string name="enter_a_film_name">Enter a Film Name</string>
+    <string name="show_films">Search Films</string>
+    <string name="show_watchlist">Show WatchList</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

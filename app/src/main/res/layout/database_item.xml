@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="3dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/saved_film_image"
+            android:layout_width="138dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="207dp">
+
+        </ImageView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/watchedButton"
+            android:text="Delete Film">
+
+        </Button>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="267dp"
+        android:layout_marginHorizontal="1dp"
+        android:layout_marginVertical="5dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/saved_film_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/saved_film_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/saved_film_award"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/saved_film_writer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/saved_film_director"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/saved_film_genre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/saved_film_summary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
