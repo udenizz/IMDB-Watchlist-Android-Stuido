@@ -4,8 +4,16 @@
     android:layout_height="wrap_content"
     xmlns:tools="http://schemas.android.com/tools"
     android:padding="8dp"
-    android:background="#00A5FF"
     tools:context=".ACTIVITY.ACTIVITIES.FilmDetailsActivity">
+
+    <ImageView
+        android:id="@+id/detailed_film_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        >
+
+    </ImageView>
 
     <LinearLayout
         android:layout_width="398dp"
@@ -128,19 +136,7 @@
 
     </LinearLayout>
 
-    <ImageView
-        android:id="@+id/detailed_film_image"
-        android:layout_width="403dp"
-        android:layout_height="883dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="0dp"
-        android:layout_marginEnd="0dp"
-        android:layout_marginBottom="8dp"
-        android:padding="1dp">
 
-    </ImageView>
 
 </RelativeLayout>
 
